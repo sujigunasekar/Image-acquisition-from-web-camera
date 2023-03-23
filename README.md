@@ -91,7 +91,7 @@ while True:
     image[height//2:, :width//2] = smaller_frame
     image[:height//2, width//2:] = smaller_frame
     image [height//2:, width//2:] = smaller_frame
-    cv2.imshow('myimage', image)
+    cv2.imshow('212222230152_suji', image)
     if cv2.waitKey(1) == ord('q'):
         break
 cap.release()
@@ -116,7 +116,7 @@ while True:
     image[height//2:, :width//2] = cv2.rotate(smaller_frame,cv2.ROTATE_180
     image[:height//2, width//2:] = smaller_frame
     image [height//2:, width//2:] = smaller_frame
-    cv2.imshow('myimage', image)
+    cv2.imshow('212222230152_suji', image)
     if cv2.waitKey(1) == ord('q'):
         break
 cap.release()
@@ -128,26 +128,26 @@ cv2.destroyAllWindows()
 ## Output
 
 ### i) Write the frame as JPG image
-</br>
-</br>
 
+
+![Screenshot from 2023-03-23 08-36-29](https://user-images.githubusercontent.com/119559822/227097733-da43f8f3-cbc2-4c01-b0cf-bc035ddefebf.png)
 
 ### ii) Display the video
-</br>
-</br>
 
+
+![Screenshot from 2023-03-23 08-59-51](https://user-images.githubusercontent.com/119559822/227097742-7d791c8a-a9c0-4c28-97c1-8fce08b4eae5.png)
 
 ### iii) Display the video by resizing the window
-</br>
-</br>
+
+![Screenshot from 2023-03-23 09-04-15](https://user-images.githubusercontent.com/119559822/227097749-18a10634-658a-49bb-b586-0641e5a272fb.png)
 
 
 
 ### iv) Rotate and display the video
-</br>
-</br>
 
 
+
+![Screenshot from 2023-03-23 09-11-43](https://user-images.githubusercontent.com/119559822/227097760-e1bd5b0c-38b4-45d3-b320-72758231062c.png)
 
 
 
